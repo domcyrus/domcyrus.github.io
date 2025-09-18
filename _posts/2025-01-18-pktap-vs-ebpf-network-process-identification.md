@@ -104,7 +104,7 @@ But here's where it gets interesting (and complicated):
 
 ## Implementation Notes
 
-For `RustNet`, I ended up using libbpf instead of Rust's aya framework specifically to avoid the nightly compiler dependency. While aya offers more idiomatic Rust, libbpf's stability and broader compatibility made it the better choice for this project.
+For `RustNet`, I ended up using libbpf instead of Rust's aya framework specifically to avoid the rust nightly toolchain dependency. While aya offers more idiomatic Rust, libbpf's stability and broader compatibility made it the better choice for this project.
 
 The contrast really highlights different OS design philosophies: macOS provides high-level, purpose-built APIs versus Linux offering low-level primitives that can be composed into powerful solutions—albeit with significantly more complexity. Whether this pattern extends beyond networking APIs is an interesting question.
 
