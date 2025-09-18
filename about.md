@@ -4,37 +4,44 @@ title: About
 permalink: /about/
 ---
 
-# About Marco
+# About
 
-I'm a systems programmer with a passion for high-performance networking and kernel development. My journey spans from StarCraft strategy (where "domcyrus" originated) to building production systems that handle real-time network traffic.
+Professionally, I work as an SRE focusing on Kubernetes infrastructure, service mesh technologies like Istio and Envoy Proxy, and building controllers and operators in Go.
 
-## What I Do
+In my free time, I work on systems programming, particularly networking tools and kernel interfaces. I write code that deals with packet capture, process identification, and cross-platform compatibility between macOS, Linux, and Windows.
 
-I specialize in:
+## Professional Work
 
-- **Systems Programming**: Building low-level networking tools and kernel interfaces
-- **Cross-Platform Development**: Bridging differences between macOS, Linux, and Windows APIs
-- **Performance Engineering**: Optimizing critical paths and reducing latency
-- **Network Analysis**: Deep packet inspection and protocol reverse engineering
+- Site Reliability Engineering with Kubernetes
+- Service mesh technologies (Istio, Envoy Proxy)
+- Kubernetes controllers and operators
+- Go development
+
+## What I Work On In My Free Time
+
+- Networking tools and kernel interfaces like eBPF
+- Performance optimization
+- Network analysis and deep packet inspection
 
 ## Current Projects
 
-- **[RustNet](https://github.com/domcyrus/rustnet)**: A high-performance network monitoring terminal UI tool with experimental eBPF support
-- Various open-source contributions to networking and systems tools
+- **[RustNet](https://github.com/domcyrus/rustnet)**: A network monitoring tool with experimental eBPF support
+- **[FFmpeg Exporter](https://github.com/domcyrus/ffmpeg_exporter)**: A Prometheus exporter using FFprobe to expose metrics about media streams (SRT, HLS, RTMP, RTSP)
+- Various contributions to networking and systems tools
 
-## Technical Interests
+## Interests
 
 - eBPF programming and kernel tracing
-- macOS PKTAP vs Linux networking APIs
+- Differences between macOS PKTAP and Linux networking APIs
 - Rust for systems programming
-- Real-time packet processing and analysis
-- Cross-platform compatibility challenges
+- Real-time packet processing
+- Cross-platform compatibility
 
-## Get in Touch
+## Contact
 
 - **GitHub**: [@domcyrus](https://github.com/domcyrus)
 - **Email**: cadetg@gmail.com
 
 ---
 
-*Fun fact: The "domcyrus" handle dates back to my StarCraft days. I've kept it as a reminder that strategic thinking applies to both gaming and software architecture!*
+*The "domcyrus" handle comes from my StarCraft days. Strategic thinking translates well from gaming to software architecture.*

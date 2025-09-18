@@ -4,16 +4,16 @@ layout: home
 
 # Welcome to Marco's Tech Blog
 
-Hi! I'm Marco, a systems programmer passionate about high-performance networking, kernel development, and cross-platform software engineering.
+Hi! I'm Marco, an SRE working with Kubernetes, service mesh, and Go. In my free time, I work on systems programming projects involving networking tools and kernel interfaces.
 
-Here you'll find technical deep-dives into:
+Here you'll find technical articles about:
 
-- **Systems Programming**: eBPF, kernel interfaces, and low-level optimization
-- **Network Monitoring**: Packet capture, DPI, and real-time analysis
+- **Systems Programming**: eBPF, kernel interfaces, and networking tools
+- **SRE & Infrastructure**: Kubernetes, service mesh, observability
 - **Cross-Platform Development**: macOS vs Linux kernel APIs and design patterns
-- **Performance Engineering**: Profiling, optimization, and architectural decisions
+- **Network Analysis**: Packet capture, DPI, and protocol analysis
 
-I'm the creator of [RustNet](https://github.com/domcyrus/rustnet), a high-performance network monitoring tool written in Rust.
+Current projects include [RustNet](https://github.com/domcyrus/rustnet), a network monitoring tool with eBPF support, and [FFmpeg Exporter](https://github.com/domcyrus/ffmpeg_exporter), a Prometheus exporter for media stream metrics.
 
 ## Latest Posts
 
