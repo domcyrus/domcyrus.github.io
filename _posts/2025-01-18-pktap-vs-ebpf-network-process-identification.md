@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "macOS PKTAP vs Linux eBPF: Two Approaches to Network Process Identification"
+title: "macOS PKTAP vs Linux eBPF"
 date: 2025-01-18 12:00:00 +0000
 categories: [systems-programming, networking, ebpf, macos, linux]
 tags: [ebpf, pktap, kernel, networking, rustnet, systems-programming]
