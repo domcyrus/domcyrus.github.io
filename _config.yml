@@ -1,0 +1,44 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+
+title: Marco's Tech Blog
+email: cadetg@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Technical deep-dives into systems programming, networking, and performance optimization.
+  Exploring kernel internals, eBPF, and cross-platform development.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://domcyrus.github.io" # the base hostname & protocol for your site
+
+twitter_username: domcyrus
+github_username: domcyrus
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Code highlighting
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Exclude from processing.
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
