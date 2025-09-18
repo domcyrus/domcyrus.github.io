@@ -40,6 +40,7 @@ In my free time, I work on systems programming, particularly networking tools an
 ## Contact
 
 - **GitHub**: [@domcyrus](https://github.com/domcyrus)
+- **Linkedin**: [Marco](https://www.linkedin.com/in/marco-cadetg-9ab7907/)
 - **Email**: cadetg@gmail.com
 
 ---
