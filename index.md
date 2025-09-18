@@ -2,7 +2,7 @@
 layout: home
 ---
 
-# Welcome to Marco's Tech Blog
+# Welcome to domcyrus.dev
 
 Hi! I'm Marco, an SRE working with Kubernetes, service mesh, and Go. In my free time, I work on systems programming projects involving networking tools and kernel interfaces.
 

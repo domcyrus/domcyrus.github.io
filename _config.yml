@@ -5,7 +5,7 @@
 # yourself editing this file very often, consider using Jekyll's data files
 # feature for the data you need to update frequently.
 
-title: Marco's Tech Blog
+title: domcyrus.dev
 email: cadetg@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Writing about systems programming, networking, and performance optimization.
@@ -13,8 +13,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://domcyrus.github.io" # the base hostname & protocol for your site
 
-twitter_username: domcyrus
 github_username: domcyrus
+linkedin_username: marco-cadetg-9ab7907
 
 # Build settings
 markdown: kramdown
