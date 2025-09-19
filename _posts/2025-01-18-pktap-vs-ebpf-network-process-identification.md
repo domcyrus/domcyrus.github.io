@@ -6,7 +6,7 @@ categories: [systems-programming, networking, ebpf, macos, linux]
 tags: [ebpf, pktap, kernel, networking, rustnet, systems-programming]
 ---
 
-While working on adding process identification to the network monitoring tool [`RustNet`](https://github.com/domcyrus/rustnet), I discovered fascinating differences in how macOS and Linux tackle a common challenge: mapping network packets to processes—especially those short-lived processes that traditional polling approaches often miss.
+While working on adding process identification to the network monitoring tool [`RustNet`](https://github.com/domcyrus/rustnet), I discovered interesting differences in how macOS and Linux tackle a quite common challenge: mapping network packets to processes. Especially tricky seem to be those short-lived processes that traditional polling approaches often miss.
 
 ## The Challenge
 
@@ -104,9 +104,9 @@ But here's where it gets interesting (and complicated):
 
 ## Implementation Notes
 
-For `RustNet`, I ended up using libbpf instead of Rust's aya framework specifically to avoid the rust nightly toolchain dependency. While aya offers more idiomatic Rust, libbpf's stability and broader compatibility made it the better choice for this project.
+For `RustNet`, I ended up using libbpf instead of Rust's aya framework in order to avoid the rust nightly toolchain dependency. While aya offers more idiomatic Rust, libbpf's stability and broad compatibility made it the better choice for this project.
 
-The contrast really highlights different OS design philosophies: macOS provides high-level, purpose-built APIs versus Linux offering low-level primitives that can be composed into powerful solutions—albeit with significantly more complexity. Whether this pattern extends beyond networking APIs is an interesting question.
+The contrast really highlights different OS design philosophies: macOS provides high-level, purpose-built APIs versus Linux offering low-level primitives that can be composed into powerful solutions—albeit with significantly more complexity. I don't know whether this pattern extends beyond networking APIs.
 
 Both approaches solve the same problem effectively, but the developer experience couldn't be more different. I wonder if Linux could benefit from higher-level networking APIs like PKTAP, though perhaps that's antithetical to the Unix philosophy of composable tools.
 
